@@ -1,3 +1,69 @@
-h1 {
-    text-align:center;
+
+body{
+    background-color: #102751;
+    background-size: cover;
+    
+    
 }
+
+h1{
+    text-align:center;
+    font-size: calc(50px + 0vmin);
+    font-family: "Merriweather", serif;
+    color: white;
+    line-height: 3;
+    
+}
+
+h2 {
+    font-size: calc(10px + 2vmin);
+    font-family: "Merriweather", serif;
+    color: white;
+    line-height: 7;
+}
+
+
+label {
+    font-weight: bold;
+    color: red;
+    line-height: 2.5;
+    margin-left: 75px;
+    font-family: "Merriweather", serif;
+  }
+
+button{
+
+    color: white;
+    border-radius: 6px;
+    padding: 10px 25px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: flex;
+    position: relative;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    cursor: pointer;
+    font-family: "Merriweather", serif;
+    margin-top: 10px;
+    margin-left: 95px;
+
+}
+
+.auth-form-container{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    background-color: transparent;
+    color: white;
+    padding-left: 325px;
+    padding-right: 325px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: black;
+    border-style: double;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgb(12, 115, 136) 100%);
+}
+
+

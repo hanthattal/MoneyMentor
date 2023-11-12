@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background: white;
+}
+
+.container {
+  padding: 30px;
+  margin-top: 80px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: -0.2px;
+  font-family: "Merriweather", serif;
+  margin-top: -50px;
+}
+
+p {
+  max-width: 50rem;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 50px;
+  font-family: "Merriweather", serif;
+}
+
+.main-content {
+  max-width: 50rem;
+  width: 90%;
+  min-height: 350px;
+  left: 275px;
+  height: auto;
+  padding: 18px 18px 120px 18px;
+  position: relative;
+  resize: none;
+  box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+  background: transparent;
+  border: 5px solid white;
+  border-radius: 16px;
+  font-family: "Merriweather", serif;
+}
+
+.main-content:focus {
+  border: none;
+  outline: none;
+
+
+}
+
+p,
+.main-content {
+  font-size: 13px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.6;
+  font-family: "Merriweather", serif;
+}
+
+.btn-style{
+  display: flex;
+
+}
+
+key {
+  /* position: absolute; */
+  background: rgb(162, 160, 160);
+  color: white;
+  border-radius: 6px;
+  padding: 16px 32px;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  margin-top: -80px;
+  cursor: pointer;
+  left: 250px;
+  font-family: "Merriweather", serif;
+}
+
+button:focus,
+button:hover {
+  background: rgb(21, 175, 139);
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.counter-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-family: "Merriweather", serif;
+  }
+
+  p {
+    font-size: 16px;
+    word-spacing: normal;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    font-family: "Merriweather", serif;
+  }
+
+  .main-content {
+    /*border:1px solid*/
+    font-size: 16px;
+    word-spacing: normal;
+    font-family: "Merriweather", serif;
+  }
+
+  button {
+    padding: 12px 28px;
+    font-size: 16px;
+    margin-top: -70px;
+    color: transparent;
+    font-family: "Merriweather", serif;
+  }
+
+  .counter-container {
+    flex-direction: column;
+  }
+
+  .counter-container p:first-child {
+    margin-bottom: 0;
+  }
+}
+
+
+.sidebar {
+  background-color:rgb(162, 160, 160);
+  width: 35%;
+  padding: 20px;
+  height:100vh;
+  top: 800px;
+  margin-top: -380px;
+  margin-left: -85px;
+  border: black;
+  border-radius: 13px;
+  font-family: "Merriweather", serif;
+
+}
+.sidebar-content {
+  color: #102751; 
+  text-align: center; 
+  margin-bottom: 10px;
+  font-size: 15px; 
+  margin-top: 60px;
+  line-height: 22px;
+  font-family: "Merriweather", serif;
+  
+}
+.sidebar-content ul li {
+  margin-bottom: 10px; /* Adjust the value to increase or decrease spacing */
+  position: relative;
+  font-family: "Merriweather", serif;
+  line-height: 22px;
+}
+
+.sidebar-content ul li a{
+  color: black;
+  font-family: "Merriweather", serif;
+  line-height: 22px;
+}
+
+
+.sidebar-content ul li a:after {
+  content: '▼'; /* Unicode character for an upside-down triangle */
+  position: absolute;
+  right: 0;
+  margin-left: 5px; /* Adjust the value for spacing between the text and the triangle */
+  color: black;
+  font-family: "Merriweather", serif;
+}
+
+/* Add hover effect to make the triangle change color when hovered */
+.sidebar-content ul li:hover a:after {
+  color: #007bff; /* Change the color to your preferred color */
+}
+
+.sidebar-content h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: black;
+  font-family: "Merriweather", serif;
+}

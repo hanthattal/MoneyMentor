@@ -1,3 +1,60 @@
-h1 {
+
+body{
+    background-color: #102751;
+    background-image: "./Glass.png";
+    background-size: cover;
+
+}
+
+h5{
+
     text-align:center;
+    font-size: calc(50px + 0vmin);
+    font-family: "Merriweather", serif;
+    color: white;
+    line-height: 3;
+    margin-bottom: -25px;
+}
+
+h6 {
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: calc(20px + 0vmin);
+    font-family: "Merriweather", serif;
+    color: white;
+    line-height: 3;
+}
+
+
+.define {
+    font-weight: bold;
+    color: red;
+    line-height: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.click{
+    font-size: 19px;
+    font-family: "Merriweather", serif;
+    line-height: 10px;
+    border: black;
+    margin-top: 10px;
+    border-style: double;
+    border-radius: 80px;
+}
+
+.auth-form-container1{
+    position: absolute;
+    top: 140px;
+    right: 300px;
+    background-color: transparent;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    border: black;
+    border-style: double;
+    border-radius: 25px;
 }
