@@ -92,7 +92,7 @@ key {
   position: relative;
   margin-top: -80px;
   cursor: pointer;
-  left: 250px;
+  left: 225px;
   font-family: "Merriweather", serif;
 }
 
@@ -134,9 +134,10 @@ button:hover {
   }
 
   button {
-    padding: 12px 28px;
-    font-size: 16px;
+    padding: 12px 20px;
+    font-size: 12px;
     margin-top: -70px;
+    margin-left: 300px;
     color: transparent;
     font-family: "Merriweather", serif;
   }
@@ -156,8 +157,8 @@ button:hover {
   width: 35%;
   padding: 20px;
   height:100vh;
-  top: 800px;
-  margin-top: -380px;
+  top: 500px;
+  margin-top: -470px;
   margin-left: -85px;
   border: black;
   border-radius: 13px;
@@ -208,3 +209,5 @@ button:hover {
   color: black;
   font-family: "Merriweather", serif;
 }
+
+

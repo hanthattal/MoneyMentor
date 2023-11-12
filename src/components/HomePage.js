@@ -102,15 +102,18 @@ const App = () => {
         }}
         ref={conversationContainerRef}
       >
-        <p>Conversation:</p>
-        <ul>
-          {conversation.map((msg, index) => (
-            <li key={index}>
-              {msg.role === 'user' ? 'User: ' : 'Assistant: '}
-              {msg.content}
-            </li>
-          ))}
-        </ul>
+        <div style={{ overflowY: 'scroll', maxHeight: '1000px', border: '1px solid #ccc', padding: '10px', marginLeft: '400px', width: '500px'}}>
+  <p>Conversation:</p>
+  <ul>
+    {conversation.map((msg, index) => (
+      <li key={index}>
+        {msg.role === 'user' ? 'User: ' : 'Assistant: '}
+        {msg.content}
+      </li>
+    ))}
+  </ul>
+</div>
+    
       </div>
             </div>
 

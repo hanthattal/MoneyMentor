@@ -6,6 +6,10 @@ body{
     
 }
 
+center{
+    left: 10px;
+}
+
 h1{
     text-align:center;
     font-size: calc(50px + 0vmin);
@@ -33,7 +37,7 @@ label {
 
 button{
 
-    color: white;
+    color: black;
     border-radius: 6px;
     padding: 10px 25px;
     border: none;
